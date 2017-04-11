@@ -1,0 +1,13 @@
+{
+  "name": "Touch and Talk",
+  "description": "Allows individuals with speech impediments to utilize this app for simple classroom verbal communication" ,
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {"scripts": ["background.js"]}
+  },
+  "permissions": [
+		  "storage"
+        ],
+  "icons": { "16": "calculator-16.png", "128": "calculator-128.png" }
+}
